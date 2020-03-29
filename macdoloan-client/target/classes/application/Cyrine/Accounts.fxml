@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="NodeAccount" maxHeight="560.0" maxWidth="850.0" minHeight="560.0" minWidth="850.0" prefHeight="560.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Cyrine.AccountsController">
+   <children>
+      <Pane fx:id="PaneAccount" prefHeight="560.0" prefWidth="850.0">
+         <children>
+            <VBox fx:id="VBox1" layoutX="36.0" layoutY="4.0" prefHeight="550.0" prefWidth="211.0" spacing="15.0" translateX="600.0">
+               <children>
+                  <Pane fx:id="PaneSearch" prefHeight="30.0" prefWidth="184.0">
+                     <children>
+                        <Label fx:id="LabelSearch" layoutX="2.0" prefHeight="30.0" prefWidth="196.0" textFill="WHITE" underline="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+                  <HBox fx:id="Hbox1" prefHeight="46.0" prefWidth="204.0" spacing="6.0" />
+                  <HBox fx:id="Hbox2" prefHeight="49.0" prefWidth="212.0" />
+                  <HBox fx:id="Hbox3" prefHeight="52.0" prefWidth="212.0" />
+                  <HBox fx:id="Hbox4" prefHeight="56.0" prefWidth="212.0" />
+                  <HBox fx:id="Hbox5" prefHeight="57.0" prefWidth="212.0" />
+                  <HBox fx:id="Hbox6" prefHeight="68.0" prefWidth="212.0" />
+               </children>
+            </VBox>
+            <ScrollPane fx:id="CenterScrollPane" fitToHeight="true" fitToWidth="true" pannable="true" prefHeight="560.0" prefWidth="632.0">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

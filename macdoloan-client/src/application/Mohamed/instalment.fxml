@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="643.0" prefWidth="1208.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mohamed.instalmentController">
+    <children>
+      <BorderPane fx:id="border" layoutX="3.0" layoutY="125.0" prefHeight="193.0" prefWidth="1205.0" style="-fx-background-color: 705F5F;">
+         <top>
+            <AnchorPane id="AnchorPane" fx:id="Post" onMouseClicked="#OpenPost" prefHeight="201.0" prefWidth="1356.0" style="-fx-background-color: #d2dae2;" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="vbox" layoutY="6.0" prefHeight="201.0" prefWidth="1206.0">
+                     <children>
+                        <HBox prefHeight="82.0" prefWidth="1136.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="76.0" prefWidth="155.0" text="Loan  :" textFill="#b91c1cad">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: #705F5F;" />
+                              <Label fx:id="lab_id" prefHeight="77.0" prefWidth="636.0" textFill="#b91c1cad">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="1206.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="58.0" prefWidth="155.0" text="Prix :" textFill="#b81d1d">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: #705F5F;" />
+                              <Label fx:id="lab_prix" prefHeight="58.0" prefWidth="582.0" textFill="#b81d1d">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="65.0" prefWidth="1206.0" spacing="10.0">
+                           <children>
+                              <Label prefHeight="62.0" prefWidth="155.0" text="Refund Date :" textFill="#b91c1c">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: #705F5F;" />
+                              <Label fx:id="lab_date" prefHeight="62.0" prefWidth="605.0" textFill="#b91c1c">
+                                 <font>
+                                    <Font name="System Italic" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow height="50.65" radius="23.3425" spread="0.3" width="44.72" />
+               </effect>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+      <Text fx:id="PostTf" fill="#411d90" layoutX="157.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Of Installemnt Of Loan" wrappingWidth="490.13671875">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

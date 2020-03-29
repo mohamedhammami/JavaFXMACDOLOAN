@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Personalinfo" prefHeight="400.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Donia.PersonalInfoController">
+   <children>
+      <Text fill="#211ecc" layoutX="43.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="44.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="45.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cin">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="45.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="45.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="45.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="46.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adress :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#211ecc" layoutX="46.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="firstnamelb" layoutX="152.0" layoutY="15.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastnamelb" layoutX="152.0" layoutY="47.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="cinlb" layoutX="118.0" layoutY="80.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginlb" layoutX="124.0" layoutY="114.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="phonelb" layoutX="124.0" layoutY="147.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="emaillb" layoutX="124.0" layoutY="181.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="adresslb" layoutX="124.0" layoutY="215.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="agelb" layoutX="124.0" layoutY="251.0" text="Label">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="192.0" layoutY="334.0" onAction="#modif" prefHeight="33.0" prefWidth="214.0" text="Update my personal informations" textAlignment="RIGHT" underline="true" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

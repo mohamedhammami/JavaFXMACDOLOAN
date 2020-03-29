@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="addcl" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Donia.addclientController">
+   <children>
+      <JFXButton layoutX="97.0" layoutY="328.0" onAction="#addClient" prefHeight="41.0" prefWidth="322.0" style="-fx-border-color: #0B2161;" text="Create New Account" />
+      <JFXTextField fx:id="lastname" layoutX="29.0" layoutY="122.0" prefHeight="25.0" prefWidth="194.0" promptText="Last Name" />
+      <JFXTextField fx:id="phone" layoutX="347.0" layoutY="122.0" prefHeight="25.0" prefWidth="208.0" promptText="Phone Number" />
+      <Label layoutX="205.0" layoutY="16.0" prefHeight="41.0" prefWidth="181.0" text="Get Started Now">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="firstname" layoutX="27.0" layoutY="68.0" prefHeight="25.0" prefWidth="201.0" promptText="First Name" />
+      <JFXTextField fx:id="adress" layoutX="313.0" layoutY="257.0" prefHeight="25.0" prefWidth="249.0" promptText="Adress" />
+      <JFXTextField fx:id="login" layoutX="346.0" layoutY="174.0" prefHeight="25.0" prefWidth="218.0" promptText="Login" />
+      <JFXTextField fx:id="email" layoutX="317.0" layoutY="216.0" prefHeight="25.0" prefWidth="243.0" promptText="Email" />
+      <JFXDatePicker fx:id="birthdate" layoutX="26.0" layoutY="254.0" prefHeight="28.0" prefWidth="208.0" promptText="Birth Date" />
+      <JFXTextField fx:id="cin" layoutX="28.0" layoutY="198.0" prefHeight="25.0" prefWidth="201.0" promptText="CIN" />
+   </children>
+</AnchorPane>
